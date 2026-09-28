@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main class="page contact-page">
+    <a class="back-link" href="index.html" aria-label="Back to home">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M19 12H5m0 0 7 7m-7-7 7-7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+      </svg>
+    </a>
+    <img class="hero-image" src="assets/heavy-petal-transparent.png" alt="Featured image">
+    <form class="contact-form">
+      <h1>Contact</h1>
+      <label class="form-field">
+        <span>Email</span>
+        <input type="email" name="email" autocomplete="email" required>
+      </label>
+      <label class="form-field">
+        <span>Subject</span>
+        <input type="text" name="subject" required>
+      </label>
+      <label class="form-field">
+        <span>Message</span>
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+      <button type="submit">Send message</button>
+    </form>
+  </main>
+</body>
+</html>
