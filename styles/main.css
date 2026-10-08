@@ -18,27 +18,15 @@ body {
   padding: 2rem 1rem;
 }
 
-.columns {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 1.5rem;
-  max-width: 90rem;
+.content {
+  max-width: 48rem;
   margin: 0 auto;
-}
-
-.image-column,
-.carousel-column {
-  min-width: 0;
-}
-
-.carousel-column {
-  padding-top: 0;
 }
 
 .instagram-link {
   display: flex;
   width: fit-content;
-  margin: 0 auto 1rem;
+  margin: 2rem auto 1rem;
   color: #064b2c;
 }
 
@@ -91,7 +79,7 @@ body {
 
 .contact-link {
   display: block;
-  width: fit-content;
+  /* width: fit-content; */
   margin: 1rem auto 0;
   color: #BAED6F;
   font-weight: 600;
@@ -117,6 +105,11 @@ body {
 
 .studio-motto {
   color: #064b2c;
+  font-size: 1.25rem;
+}
+
+.studio-motto-yellow {  
+  color: #BAED6F;
   font-size: 1.25rem;
 }
 
@@ -215,17 +208,6 @@ body {
 
 .form-status[data-state="error"] {
   color: #b00020;
-}
-
-@media (min-width: 768px) {
-  .columns {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 2rem;
-  }
-
-  .carousel-column {
-    padding-top: 6rem;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
