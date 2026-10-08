@@ -14,8 +14,11 @@
       </svg>
     </a>
     <img class="hero-image" src="assets/heavy-petal-transparent.png" alt="Featured image">
-    <form class="contact-form">
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
       <h1>Contact</h1>
+      <input type="hidden" name="access_key" value="e814f8f2-e03c-4162-8b07-44c26d6cfd83">
+      <input type="hidden" name="from_name" value="Heavy Petal Highlands Contact">
+      <input type="checkbox" name="botcheck" class="honeypot" tabindex="-1" autocomplete="off">
       <label class="form-field">
         <span>Email</span>
         <input type="email" name="email" autocomplete="email" required>
@@ -29,7 +32,9 @@
         <textarea name="message" rows="6" required></textarea>
       </label>
       <button type="submit">Send message</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
     </form>
   </main>
+  <script src="scripts/contact.js"></script>
 </body>
 </html>

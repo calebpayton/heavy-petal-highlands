@@ -196,6 +196,27 @@ body {
   cursor: pointer;
 }
 
+.contact-form button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.honeypot {
+  display: none;
+}
+
+.form-status {
+  margin: 1rem 0 0;
+}
+
+.form-status[data-state="success"] {
+  color: #087b48;
+}
+
+.form-status[data-state="error"] {
+  color: #b00020;
+}
+
 @media (min-width: 768px) {
   .columns {
     grid-template-columns: repeat(2, minmax(0, 1fr));
