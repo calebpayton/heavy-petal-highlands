@@ -13,6 +13,10 @@ body {
   background: linear-gradient(to bottom, #00bf63 0%, #00bf63 76%, #00b75e 100%);
 }
 
+p {
+  color: #593D2B;
+}
+
 .page {
   min-height: 100vh;
   padding: 2rem 1rem;
@@ -27,7 +31,7 @@ body {
   display: flex;
   width: fit-content;
   margin: 2rem auto 1rem;
-  color: #064b2c;
+  color: #3E2723;
 }
 
 .instagram-link svg {
@@ -37,11 +41,11 @@ body {
 }
 
 .instagram-link:hover {
-  color: #087b48;
+  color: #593D2B;
 }
 
 .instagram-link:focus-visible {
-  outline: 2px solid #064b2c;
+  outline: 2px solid #593D2B;
   outline-offset: 4px;
 }
 
@@ -96,7 +100,7 @@ body {
 
 .studio-intro .signature {
   margin-top: 1.25rem;
-  color: #064b2c;
+  color: #3E2723;
   font-family: "Parisienne", "Segoe Script", cursive;
   font-size: 2.25rem;
   line-height: 1.2;
@@ -104,7 +108,7 @@ body {
 }
 
 .studio-motto {
-  color: #064b2c;
+  color: #3E2723;
   font-size: 1.25rem;
 }
 
@@ -127,7 +131,7 @@ body {
   width: 2.5rem;
   aspect-ratio: 1;
   place-items: center;
-  color: #064b2c;
+  color: #3E2723;
 }
 
 .back-link svg {
@@ -137,11 +141,11 @@ body {
 }
 
 .back-link:hover {
-  color: #087b48;
+  color: #593D2B;
 }
 
 .back-link:focus-visible {
-  outline: 2px solid #064b2c;
+  outline: 2px solid #593D2B;
   outline-offset: 2px;
 }
 
