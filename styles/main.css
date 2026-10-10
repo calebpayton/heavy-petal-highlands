@@ -85,7 +85,7 @@ p {
   display: block;
   /* width: fit-content; */
   margin: 1rem auto 0;
-  color: #BAED6F;
+  color: #C2F455;
   font-weight: 600;
 }
 
@@ -100,7 +100,7 @@ p {
 
 .studio-intro .signature {
   margin-top: 1.25rem;
-  color: #3E2723;
+  color: #C2F455;
   font-family: "Parisienne", "Segoe Script", cursive;
   font-size: 2.5rem;
   line-height: 1.2;
@@ -113,7 +113,7 @@ p {
 }
 
 .studio-motto-yellow {  
-  color: #BAED6F;
+  color: #C2F455;
   font-size: 1.25rem;
 }
 
