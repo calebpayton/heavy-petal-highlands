@@ -134,9 +134,31 @@ p {
   font-size: 1.25rem;
 }
 
+.rates-table {
+  color: #3E2723;
+}
+
 .studio-motto-yellow {  
   color: #C2F455;
   font-size: 1.25rem;
+}
+
+.header-yellow {
+  color: #C2F455;
+  font-size: 3rem; 
+  margin: 0; 
+}
+
+.yellow-text {
+  color: #C2F455;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-top-0 {
+  margin-top: 0;
 }
 
 .contact-page {
